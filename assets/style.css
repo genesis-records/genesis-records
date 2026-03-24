@@ -90,11 +90,9 @@ a:not([class]) {
 img,
 picture {
   max-width: 100%;
-  max-height: 20vh;
   display: block;
   transition: transform .1s ease;
-  object-position: left;
-  object-fit: contain;
+
 }
 
 /* Inherit fonts for inputs and buttons */
@@ -131,6 +129,9 @@ textarea:not([rows]) {
   width: 100%;
   max-width: 1000px;
   display: block;
+    max-height: 20vh;
+    object-position: left;
+  object-fit: contain;
 
 }
 
